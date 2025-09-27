@@ -1,0 +1,23 @@
+PRINT SUM OF FIRST TWO DIGITS AND LAST TWO DIGITS: 
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int firstwo = 0; 
+        int lasttwo = 0; 
+        while (num >= 99) {
+            num = num / 10;
+            firstwo = num;
+            lasttwo = num % 100;
+            int sum = firstwo + lasttwo;
+            System.out.println(firstwo);
+             System.out.println(lasttwo);
+        }
+        System.out.println(firstwo + lasttwo);
+        sc.close(); 
+}
+}
+	
+	   
