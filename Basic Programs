@@ -1,0 +1,217 @@
+1) SWAPPING THE VALUES USING TEMPORARY VARIABLE:
+
+public class Main
+{
+  public static void main(String[] args) {
+
+   int a=20;
+
+   int b=10;
+
+   System.out.println(a+" "+b);
+
+   int c=a;
+
+   a=b;
+
+   b=c;
+
+   System.out.println(a+" "+b);
+	
+   }
+
+   }
+
+
+
+2)SWAPPING THE VALUES USING * AND / OPERATOR:
+
+public class Main
+{
+  public static void main(String[] args) {
+
+  int a=20;
+
+  int b=10;
+		
+  System.out.println(a+" "+b);
+	
+  a=a*b;
+	
+  b=a/b;
+		
+  a=a/b;
+		
+  System.out.println(a+" "+b);
+	
+}
+}
+  
+3)SWAPPING THE VALUES USING + AND - OPERATOR:
+
+public class Main
+{
+
+  public static void main(String[] args) {
+
+  int a=20;
+	  
+  int b=10;
+
+  System.out.println(a+" "+b);
+
+  a=a+b;
+		
+  b=a-b;
+	
+  a=a-b;
+	
+  System.out.println(a+" "+b);
+
+  }
+  }
+
+
+4)GREATEST AMONG THREE NUMBERS:
+
+import java.util.*;
+
+public class Main
+{
+
+  public static void main(String[] args) {
+
+  Scanner scan = new Scanner(System.in);
+	  
+  int a = scan.nextInt();
+	 
+  int b = scan.nextInt();
+	  
+  int c = scan.nextInt();
+	 
+  if(a<b && a<c){
+	      
+  System.out.println(a);
+
+  }
+	
+  else if(b<c){
+	      
+  System.out.println(b);
+	 
+  }
+
+	
+  else{
+
+  System.out.println(c);
+	
+  }
+	
+  }
+
+5)STUDENT GRADE ANALYSIS:
+
+import java.util.*;
+
+public class Main
+{
+	
+  public static void main(String[] args) {
+
+  Scanner scan = new Scanner(System.in);
+
+  System.out.println("Enter mark ");
+	  
+  int mark = scan.nextInt();
+	  
+  if (mark>=91&&mark<=100){
+	      
+   System.out.println("O grade");
+	   
+  }
+	
+  else if (mark>=81&&mark<=90){
+
+   System.out.println("A grade");
+	
+   }
+	 
+  else if (mark>=71&&mark<=80){
+	    
+   System.out.println("B grade");	   
+	 
+   }
+	  
+ else if (mark>=61&&mark<=70){
+	   
+   System.out.println("C grade");
+	   
+   }
+	
+ else if (mark>=51&&mark<=60){
+	
+   System.out.println("D grade");
+	  
+   }
+	  
+ else if (mark>0&&mark<=50){
+	 
+   System.out.println("Fail");
+
+   }
+	
+ else
+   {
+	 
+   System.out.println("Invalid");
+	  
+   }
+	
+   }
+
+   }
+
+6)LEAP YEAR:
+
+import java.util.*;
+
+public class Main
+{
+
+  public static void main(String[] args) {
+
+  Scanner scan = new Scanner(System.in);
+	  
+  int year = scan.nextInt();
+
+  if ((year%4==0 && year%100!=0)|| year%400==0){
+  System.out.println("Leap year");
+  }
+	 
+  else{
+  System.out.println(" Not Leap year");
+	
+   }
+
+   }
+
+   }
+
+7)PRINT FLOAT VALUE:
+
+import java.util.*;
+
+public class Main{
+  
+  public static void main(String[]args){
+
+  Scanner scan = new Scanner(System.in);
+
+  float f = 56.7868f;
+ 
+  System.out.printf("%.2f",f);
+   
+  }
+
+  }
