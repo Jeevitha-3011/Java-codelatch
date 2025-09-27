@@ -1,0 +1,27 @@
+1)INTEGER TYPECASTING:
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println((int)'S');
+	}
+}
+
+2)CHARACTER TYPECASTING:
+
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println((char)67);
+	}
+}
+
+3)BYTE TYPECASTING:
+
+public class Main{
+    public static void main(String[]args){
+        int a = 170;
+        byte b = (byte) a;
+        System.out.println(b);
+    }
+}
