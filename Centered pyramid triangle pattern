@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int totalCols = 2 * size - 1;
+
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col < size - row - 1; col++) {
+                System.out.print(" ");
+            }
+            for (int col = 0; col < 2 * row + 1; col++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
