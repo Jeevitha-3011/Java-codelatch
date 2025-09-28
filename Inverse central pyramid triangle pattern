@@ -5,11 +5,9 @@ public class Main {
         int size = sc.nextInt();
         
         for (int row = 0; row < size; row++) {
-            // print leading spaces
             for (int space = 0; space < row; space++) {
                 System.out.print(" ");
             }
-            // print stars: decreasing odd numbers starting from (2*size -1)
             for (int star = 0; star < 2 * (size - row) - 1; star++) {
                 System.out.print("*");
             }
