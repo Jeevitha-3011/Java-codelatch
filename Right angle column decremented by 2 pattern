@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    int size = sc.nextInt();
+        int t=2*size-1;
+	    for(int row=0;row<size;row++){
+	        for(int col=0;col<t;col++){
+	            System.out.print("*");
+	        }
+	        t=t-2;
+	        System.out.println();
+	    }
+	    
+	}
+}
